@@ -1,5 +1,8 @@
 package com.n0texpecterr0r.datastructure.linear;
 
+/**
+ * 基于数组实现的ArrayList
+ */
 public class ArrayList<T> {
     public static final int INIT_CAPACITY = 10;
 
@@ -22,6 +25,15 @@ public class ArrayList<T> {
         datas[length++] = data;
     }
 
+    public void add(int index, T data) {
+        checkBounds(index);
+        ensureCapacityEnough(length + 1);
+        for (int i = length - 1; i >= index; i--) {
+            datas[i + 1] = datas[i];
+        }
+        datas[index] = data;
+    }
+
     public void addAll(ArrayList<T> list) {
         ensureCapacityEnough(length + list.length);
         for (Object data : list.toArray()) {
@@ -38,9 +50,7 @@ public class ArrayList<T> {
     }
 
     public T get(int index) {
-        if (index > length || index < 0) {
-            throw new IndexOutOfBoundsException("index: " + index + " length: " + length);
-        }
+        checkBounds(index);
         return (T) datas[index];
     }
 
@@ -63,6 +73,12 @@ public class ArrayList<T> {
 
     public T[] toArray() {
         return (T[]) datas;
+    }
+
+    private void checkBounds(int index) {
+        if (index > length || index < 0) {
+            throw new IndexOutOfBoundsException("index: " + index + " length: " + length);
+        }
     }
 
     private void ensureCapacityEnough(int len) {
@@ -88,6 +104,7 @@ public class ArrayList<T> {
         }
         System.out.println("index of 25: " + list.indexOf(25));
         list.remove(15);
+        list.add(10, 260);
         System.out.println("index of 25: " + list.indexOf(25));
         System.out.println(list.contains(16));
 
