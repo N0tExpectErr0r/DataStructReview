@@ -1,2 +1,1 @@
-# DataStructureReview
-一个用于实现各种数据结构以复习数据结构知识的Repo
+一个实现各种数据结构以复习数据结构知识的Repo
