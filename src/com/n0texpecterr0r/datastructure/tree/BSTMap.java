@@ -1,4 +1,4 @@
-package com.n0texpecterr0r.datastructure.bst;
+package com.n0texpecterr0r.datastructure.tree;
 
 /**
  * 二叉搜索树实现的 Map

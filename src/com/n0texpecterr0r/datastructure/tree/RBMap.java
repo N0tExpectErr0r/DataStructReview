@@ -1,11 +1,8 @@
-package com.n0texpecterr0r.datastructure.rb;
-
-import com.sun.org.apache.regexp.internal.RE;
-
-import java.io.RandomAccessFile;
-import java.util.regex.Pattern;
+package com.n0texpecterr0r.datastructure.tree;
 
 /**
+ * 红黑树实现的Map
+ *
  * 红黑树比较重要的是它的规则：
  * 1.每个节点不是红色就是黑色的
  * 2.根节点总是黑色

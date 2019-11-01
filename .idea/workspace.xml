@@ -218,11 +218,11 @@
   </component>
   <component name="RunManager" selected="Application.RBMap">
     <configuration name="AVLMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.n0texpecterr0r.datastructure.avl.AVLMap" />
+      <option name="MAIN_CLASS_NAME" value="com.n0texpecterr0r.datastructure.tree.AVLMap" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.n0texpecterr0r.datastructure.avl.*" />
+          <option name="PATTERN" value="com.n0texpecterr0r.datastructure.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,11 +231,11 @@
       </method>
     </configuration>
     <configuration name="BSTMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.n0texpecterr0r.datastructure.bst.BSTMap" />
+      <option name="MAIN_CLASS_NAME" value="com.n0texpecterr0r.datastructure.tree.BSTMap" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.n0texpecterr0r.datastructure.bst.*" />
+          <option name="PATTERN" value="com.n0texpecterr0r.datastructure.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,11 +244,11 @@
       </method>
     </configuration>
     <configuration name="RBMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.n0texpecterr0r.datastructure.rb.RBMap" />
+      <option name="MAIN_CLASS_NAME" value="com.n0texpecterr0r.datastructure.tree.RBMap" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.n0texpecterr0r.datastructure.rb.*" />
+          <option name="PATTERN" value="com.n0texpecterr0r.datastructure.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

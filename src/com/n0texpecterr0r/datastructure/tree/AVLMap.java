@@ -1,4 +1,4 @@
-package com.n0texpecterr0r.datastructure.avl;
+package com.n0texpecterr0r.datastructure.tree;
 
 /**
  * 基于 AVL 树实现的Map
